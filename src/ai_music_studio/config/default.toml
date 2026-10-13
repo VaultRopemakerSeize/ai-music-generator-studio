@@ -1,0 +1,10 @@
+[studio]
+weights_dir = "models/weights"
+presets_dir = "models/presets"
+outputs_dir = "outputs"
+sample_rate = 48000
+channels = 2
+block_frames = 4096
+max_seconds = 600
+default_model = "musicgen-small"
+allow_unsafe_weights = false
