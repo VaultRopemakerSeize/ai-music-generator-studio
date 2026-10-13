@@ -1,0 +1,78 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtualenvs
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Model weights & generated audio
+models/weights/*.safetensors
+models/weights/*.ckpt
+models/weights/*.onnx
+models/weights/*.bin
+!models/weights/.gitkeep
+outputs/
+renders/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.opus
+*.mid
+*.midi
+*.aiff
+
+# Caches
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Native build trees
+native/**/build/
+native/**/bin/
+native/**/obj/
+**/CMakeCache.txt
+**/CMakeFiles/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+config/local.toml
+config/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
